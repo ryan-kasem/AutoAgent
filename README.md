@@ -1,6 +1,6 @@
 # AutoAgent
 
-An autonomous AI agent built on the ReAct (Reasoning + Acting) framework. Give it a task — it figures out what tools to use, calls them, observes the results, and keeps going until it has an answer.
+An autonomous AI agent built on the ReAct (Reasoning + Acting) framework. Give it a task - it figures out what tools to use, calls them, observes the results, and keeps going until it has an answer.
 
 ---
 
@@ -22,7 +22,7 @@ The agent decides which tool to use based on its reasoning, not hardcoded rules.
 Every task runs through this loop until the agent has an answer or hits the iteration limit:
 
 ```
-Thought:       "I need to calculate this — I'll use the calculator tool"
+Thought:       "I need to calculate this - I'll use the calculator tool"
 Action:        calculator
 Action Input:  {"expression": "sqrt(1764)"}
 Observation:   The result is 42.
@@ -30,7 +30,7 @@ Thought:       "I have the answer"
 Final Answer:  42
 ```
 
-The LLM reasons out loud before every action. This makes the agent far more reliable than just directly calling tools — it catches its own mistakes mid-loop.
+The LLM reasons out loud before every action. This makes the agent far more reliable than just directly calling tools - it catches its own mistakes mid-loop.
 
 ---
 
@@ -70,7 +70,7 @@ Answer + stored in long-term memory
 | `calculator` | Safe `eval` with math namespace | Any arithmetic or math |
 | `execute_python` | Sandboxed `exec()` with SIGALRM timeout | Complex computation, data processing |
 
-Adding a new tool is ~10 lines — just register a `Tool` with a name, description, and function.
+Adding a new tool is ~10 lines - just register a `Tool` with a name, description, and function.
 
 ---
 
@@ -140,7 +140,7 @@ AutoAgent/
 
 ## Benchmark
 
-Evaluated across 5 task types — math, factual lookup, code execution, and multi-step reasoning:
+Evaluated across 5 task types - math, factual lookup, code execution, and multi-step reasoning:
 
 | Metric | Description |
 |---|---|
@@ -153,4 +153,4 @@ Evaluated across 5 task types — math, factual lookup, code execution, and mult
 
 ## References
 
-- Yao et al. (2022) — [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
+- Yao et al. (2022) - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
