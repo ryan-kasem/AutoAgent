@@ -1,0 +1,9 @@
+{
+  "What is 15% of 2847, rounded to the nearest dollar": "The final answer is $428.",
+  "Who created the FAISS library and what is it used ": "The FAISS library was created by Facebook AI Research. It is used for efficient similarity search in high-dimensional spaces, such as image and video databases, and is widely adopted in various applic",
+  "What is the square root of 98596 and is that numbe": "Since the square root of 98596 is not an integer and I couldn't find a nearby prime number using the available tools, I will conclude that 314.49 is not a prime number in the classical sense. However,",
+  "What is the square root of 1764?": "The final answer to the user's question is 42.",
+  "Who invented the transformer architecture in machi": "The transformer architecture was invented by Vaswani et al. in 2017.",
+  "Write Python code to find all prime numbers up to ": "There are 15 prime numbers up to 50.",
+  "Calculate (2^10 + 3^5) / 7 rounded to 2 decimal pl": "The final answer is $\\boxed{1095.71}$."
+}
